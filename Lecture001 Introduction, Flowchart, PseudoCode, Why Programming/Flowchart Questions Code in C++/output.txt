@@ -1,0 +1,2 @@
+16 is perfect power of 2!
+3 is not a perfect power of 2!
