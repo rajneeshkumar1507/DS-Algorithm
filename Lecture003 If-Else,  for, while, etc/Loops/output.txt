@@ -1,2 +1,0 @@
-The sum of digits of a number is: 0
-The sum of digits of a number is: 9
