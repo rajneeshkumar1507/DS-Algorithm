@@ -1,17 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void problem1(char ch){
-    if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z')){
-        cout<<"Alpabet"<<endl;
-    }
-    else if(ch>='0' && ch<='9'){
-        cout<<"Digit"<<endl;
-    }
-    else{
-        cout<<"Special Character"<<endl;
-    }
-}
 void notesDistribution(int amount){
     int oneRupee, twoRupee, fiveRupee, tenRupee, twentyRupee, fiftyRupee, hundredRupee, fiveHundredRupee;
         oneRupee=twoRupee=fiveRupee=tenRupee=twentyRupee=fiftyRupee=hundredRupee=fiveHundredRupee=0;
@@ -50,39 +39,14 @@ void notesDistribution(int amount){
         cout<<"2: "<<twoRupee<<endl;
         cout<<"1: "<<oneRupee<<endl;
 }
-void naturalNumber(int n){
-    // for(int i=n;i>0;i--){
-    //     cout<<i<<" ";
-    // }
-    int i=n;
-    while(i>0){
-        cout<<i<<" ";
-        i--;
-    }
-}
-void printAlphabet(){
-    for(int i='a';i<='z';i++){
-        char ch = int(i);
-        cout<<ch<<" ";
-    }
-}
-int sumOfEvenNumber(int n){
-    int sum=0;
-    for(int i=1;i<=n;i++){
-        if(i%2==0)
-            sum+=i;
-    }
-    return sum;
-}
 int main()
 {
     int t;
     cin>>t;
     for(int i=0;i<t;i++){
-        int n;
-        cin>>n;
-        int answer = sumOfEvenNumber(n);
-        cout<<"Sum of Even Number between 1 to "<<n<<" is:"<<answer<<endl;
+        int amount;
+        cin>>amount;
+        notesDistribution(amount);
     }
     return 0;
 }
