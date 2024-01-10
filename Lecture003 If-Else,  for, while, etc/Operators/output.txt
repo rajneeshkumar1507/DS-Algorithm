@@ -1,0 +1,24 @@
+Arithmetic Operators
+
+Addition of 20 and 15 is: 35
+Subtraction of 20 and 15 is: 5
+Multiplication of 20 and 15 is: 300
+Division between 20 and 15 is: 1
+Modulus of 20 and 15 is: 5
+
+
+Relational Operators
+
+Check if 20 < 15 : 0
+Check if 20 > 15 : 1
+Check if 20 >= 15 : 1
+Check if 20 <= 15 : 0
+Check if 20 == 15 : 0
+Check if 20 != 15 : 1
+
+
+Logical Operators
+
+a && b is: 1
+a || b is: 1
+ !a is: 0

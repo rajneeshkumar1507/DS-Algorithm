@@ -4,23 +4,24 @@ using namespace std;
 int main()
 {
 
-    // Ques-1.Write a program that takes an input of age
-    // and prints if you are adult or not
-    // >=18  adult
-    // <18   not an adult
+    /*Ques-1.Write a program that takes an input of age
+    and prints if you are adult or not
+    >=18  adult
+    <18   not an adult
 
-    // int age;
-    // cin>>age;
-    // // edge case
-    // if(age<1){
-    //     cout<<"Enter the Valid Age !";
-    // }
-    // if(age>=18){
-    //     cout<<"Adult";
-    // }
-    // else if(age<18){
-    //     cout<<"Not an adult";
-    // }
+    int age;
+    cin>>age;
+    edge case
+    if(age<1){
+        cout<<"Enter the Valid Age !";
+    }
+    if(age>=18){
+        cout<<"Adult";
+    }
+    else if(age<18){
+        cout<<"Not an adult";
+    }
+    */
 
 
     /*Ques.2 
@@ -31,28 +32,30 @@ int main()
     d. 50 to 59 - C
     e. 60 to 79 - B
     f. 80 to 80 - A
-    Ask user to enter marks and print the corresponding grade.*/
+    Ask user to enter marks and print the corresponding grade.
 
-    // int marks;
-    // cin>>marks;
-    // if(marks < 25){
-    //     cout<<"F";
-    // }
-    // else if(marks<=44){
-    //     cout<<"E";
-    // }
-    // else if(marks<=49){
-    //     cout<<"D";
-    // }
-    // else if(marks<=59){
-    //     cout<<"C";
-    // }
-    // else if(marks<=79){
-    //     cout<<"B";
-    // }
-    // else if(marks<=100){
-    //     cout<<"A";
-    // }
+    int marks;
+     cin>>marks;
+     if(marks < 25){
+         cout<<"F";
+     }
+     else if(marks<=44){
+         cout<<"E";
+     }
+     else if(marks<=49){
+         cout<<"D";
+     }
+     else if(marks<=59){
+         cout<<"C";
+     }
+     else if(marks<=79){
+         cout<<"B";
+     }
+     else if(marks<=100){
+         cout<<"A";
+     }
+
+    */
 
     /*Take the age from the user and then decide accordingly
     1. if age < 18,
