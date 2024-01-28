@@ -1,32 +1,25 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-bool primeNumber(int n){
-    bool isPrime=1;
-    if(n<=1){
-        isPrime=0;
-    }
-    for(int i=2;i<n;i++){
+void checkPrime(int n){
+    int cnt = 0;
+    for(int i=1;i*i<=n;i++){
         if(n%i==0){
-            isPrime=0;
-            break;
+            cnt++;
+            if((n%i) != i) cnt++;
         }
     }
-    return isPrime;
+   if(cnt == 2) cout<<"Prime Number"<<endl;
+   else cout<<"Not a Prime Number"<<endl;
 }
 int main()
 {
     int t;
     cin>>t;
-    for(int i=0;i<t;i++){
+    while(t--){
         int n;
         cin>>n;
-        if(primeNumber(n)==0){
-            cout<<n<<" is not a Prime Number!"<<endl;
-    }
-    else{
-        cout<<n<<" is a Prime Number!"<<endl;
-    }
+        checkPrime(n);
     }
     return 0;
 }
