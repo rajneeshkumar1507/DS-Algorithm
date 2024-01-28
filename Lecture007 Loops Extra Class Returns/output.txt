@@ -1,0 +1,2 @@
+HCF of 11 and 13 is: 1
+HCF of 100 and 50 is: 5
