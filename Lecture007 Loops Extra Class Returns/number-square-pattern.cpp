@@ -18,6 +18,7 @@ void pattern1(int n){
 */
 void pattern2(int n){
     for(int i = 1; i<=n;i++){
+        // you can  j = i, cause every row starts with i.
         for(int j = 1; j<=n;j++){
             cout<<(i+j-1);
         }
